@@ -292,6 +292,32 @@ p{margin:0 0 1.1em}
   letter-spacing:.13em; text-transform:uppercase; color:rgba(0,0,0,.6);
 }
 
+
+/* ============================================================
+   VOICES — replies to the closing announcement
+   ============================================================ */
+.voices{padding:clamp(64px,11vw,150px) var(--pad); border-bottom:1px solid var(--line)}
+.voices__head{margin-bottom:clamp(32px,5vw,56px)}
+.voices__head .display{color:var(--orange)}
+.voices__grid{
+  display:grid; grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+  gap:clamp(18px,2.4vw,30px);
+}
+.voice{
+  margin:0; padding:clamp(22px,2.6vw,32px);
+  border:1px solid var(--line); border-left:3px solid var(--orange);
+  display:flex; flex-direction:column; gap:16px;
+}
+.voice blockquote{
+  margin:0; font-size:1.02rem; line-height:1.55; color:#fff; font-weight:600;
+}
+.voice blockquote::before{content:"\201C"}
+.voice blockquote::after{content:"\201D"}
+.voice figcaption{
+  font-size:.72rem; font-weight:800; letter-spacing:.16em; text-transform:uppercase;
+  color:var(--orange); margin-top:auto;
+}
+
 /* ============================================================
    ONWARD — where to go next
    ============================================================ */

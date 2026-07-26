@@ -26,10 +26,11 @@
   </a>
   <nav class="nav__links" aria-label="Sections">
     <a href="#about">About</a>
-    <a href="#shows">Shows</a>
     <a href="#slides">Slides</a>
+    <a href="#shows">Shows</a>
     <a href="#stage">The Stage</a>
     <a href="#goodbye">Goodbye</a>
+    <a href="#voices">Voices</a>
     <a href="https://instagram.com/railscomedy" target="_blank" rel="noopener">Instagram ↗</a>
   </nav>
   <button class="nav__toggle" aria-expanded="false" aria-label="Open menu"><span></span><span></span><span></span></button>
@@ -85,6 +86,33 @@
       <div><span class="k">How much</span><span class="v">5 years,<br>500 shows</span></div>
       <div><span class="k">Last call</span><span class="v">Final season announced<br>May 2026</span></div>
     </div>
+  </div>
+</section>
+
+<!-- ============ SLIDES ============ -->
+<section class="slides" id="slides">
+  <div class="slides__head">
+    <p class="label">Slides</p>
+    <h2 class="display">Five years<br>in the dark</h2>
+    <p class="shows__note">Photographs by Mikail Faalasli. Use the arrows, swipe, or your keyboard.</p>
+  </div>
+
+  <div class="slideshow" role="region" aria-roledescription="carousel" aria-label="Rails Comedy photographs">
+    <div class="slideshow__stage">
+      <button class="sbtn sbtn--prev" aria-label="Previous slide">‹</button>
+      <div class="slideshow__viewport">
+        <div class="slideshow__track" id="track"><!-- slides injected by JS --></div>
+      </div>
+      <button class="sbtn sbtn--next" aria-label="Next slide">›</button>
+    </div>
+    <div class="slideshow__bar">
+      <p class="slideshow__caption" id="caption" aria-live="polite"></p>
+      <div class="slideshow__right">
+        <button class="playbtn" id="playbtn" aria-label="Pause slideshow">❚❚ Pause</button>
+        <p class="slideshow__count" id="count"></p>
+      </div>
+    </div>
+    <div class="dots" id="dots" role="tablist" aria-label="Choose slide"></div>
   </div>
 </section>
 
@@ -420,33 +448,6 @@
 
 
 
-<!-- ============ SLIDES ============ -->
-<section class="slides" id="slides">
-  <div class="slides__head">
-    <p class="label">Slides</p>
-    <h2 class="display">Five years<br>in the dark</h2>
-    <p class="shows__note">Photographs by Mikail Faalasli. Use the arrows, swipe, or your keyboard.</p>
-  </div>
-
-  <div class="slideshow" role="region" aria-roledescription="carousel" aria-label="Rails Comedy photographs">
-    <div class="slideshow__stage">
-      <button class="sbtn sbtn--prev" aria-label="Previous slide">‹</button>
-      <div class="slideshow__viewport">
-        <div class="slideshow__track" id="track"><!-- slides injected by JS --></div>
-      </div>
-      <button class="sbtn sbtn--next" aria-label="Next slide">›</button>
-    </div>
-    <div class="slideshow__bar">
-      <p class="slideshow__caption" id="caption" aria-live="polite"></p>
-      <div class="slideshow__right">
-        <button class="playbtn" id="playbtn" aria-label="Pause slideshow">❚❚ Pause</button>
-        <p class="slideshow__count" id="count"></p>
-      </div>
-    </div>
-    <div class="dots" id="dots" role="tablist" aria-label="Choose slide"></div>
-  </div>
-</section>
-
 <!-- ============ THE STAGE ============ -->
 <section class="stage" id="stage">
   <div class="stage__inner">
@@ -476,6 +477,41 @@
       <p class="farewell__cta">Join us for our last regular season at The DC Arts Center!</p>
     </blockquote>
     <p class="farewell__attr">&mdash; Rails Comedy, announcing the final season, 10 May 2026</p>
+  </div>
+</section>
+
+<!-- ============ VOICES ============ -->
+<section class="voices" id="voices">
+  <div class="voices__head">
+    <p class="label">The room replies</p>
+    <h2 class="display">What people<br>said back</h2>
+    <p class="shows__note">A few of the replies to the closing announcement, from the DC comedy community on Instagram.</p>
+  </div>
+  <div class="voices__grid">
+      <figure class="voice">
+        <blockquote>You&rsquo;ve created such an amazing community at Rails, and produced the hell out of some great comedy shows. This will be a big loss to the DC comedy world.</blockquote>
+        <figcaption>@marykatesymes</figcaption>
+      </figure>
+      <figure class="voice">
+        <blockquote>Shocked to see this! But what a run to celebrate!</blockquote>
+        <figcaption>@washington_roast</figcaption>
+      </figure>
+      <figure class="voice">
+        <blockquote>Honored to have been a small part of the journey.</blockquote>
+        <figcaption>@officialjeg</figcaption>
+      </figure>
+      <figure class="voice">
+        <blockquote>A hell of a run!</blockquote>
+        <figcaption>@mikkissmith</figcaption>
+      </figure>
+      <figure class="voice">
+        <blockquote>Last EAS ever people, so bring your A game!!</blockquote>
+        <figcaption>@morgannotmeghan</figcaption>
+      </figure>
+      <figure class="voice">
+        <blockquote>The best!</blockquote>
+        <figcaption>@seanpubins</figcaption>
+      </figure>
   </div>
 </section>
 
