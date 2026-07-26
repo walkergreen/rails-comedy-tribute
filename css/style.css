@@ -262,6 +262,44 @@ p{margin:0 0 1.1em}
 .stage__links{display:flex; flex-wrap:wrap; gap:14px; margin-top:1.8rem}
 
 /* ============================================================
+   FAREWELL — the closing beat, inverted to orange
+   ============================================================ */
+.farewell{
+  background:var(--orange); color:#000;
+  padding:clamp(64px,11vw,150px) var(--pad);
+  border-top:2px solid #000; border-bottom:2px solid #000;
+}
+.farewell__inner{max-width:min(56rem,100%); margin:0 auto; text-align:center}
+.farewell__label{
+  font-size:.72rem; font-weight:800; letter-spacing:.28em; text-transform:uppercase;
+  margin:0 0 clamp(18px,3vw,30px); color:rgba(0,0,0,.62);
+}
+.farewell__head{
+  font-family:Anton,Impact,sans-serif; font-weight:400; text-transform:uppercase;
+  line-height:.88; letter-spacing:.01em; margin:0;
+  font-size:clamp(2.4rem,6.6vw,5.6rem);
+}
+.farewell__quote{
+  margin:clamp(28px,4.5vw,52px) auto 0; max-width:46ch; border:0; padding:0;
+  font-size:clamp(1.02rem,1.55vw,1.28rem); line-height:1.6; font-weight:600;
+}
+.farewell__quote p{margin:0 0 1em}
+.farewell__cta{font-weight:800}
+.farewell__attr{
+  margin:clamp(20px,3vw,30px) 0 0; font-size:.8rem; font-weight:800;
+  letter-spacing:.13em; text-transform:uppercase; color:rgba(0,0,0,.6);
+}
+
+/* ============================================================
+   ONWARD — where to go next
+   ============================================================ */
+.onward{padding:clamp(64px,11vw,150px) var(--pad); border-bottom:1px solid var(--line)}
+.onward__inner{max-width:62ch}
+.onward .display{color:var(--orange); margin-bottom:1.4rem}
+.onward .lede{color:var(--muted); margin-bottom:2rem}
+.btn--big{font-size:.92rem; padding:19px 36px; letter-spacing:.1em}
+
+/* ============================================================
    FOOTER
    ============================================================ */
 .foot{padding:clamp(56px,9vw,110px) var(--pad) 40px}

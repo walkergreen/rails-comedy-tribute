@@ -171,7 +171,8 @@
   /* ---------------- scroll reveal ---------------- */
   if (!reduceMotion && 'IntersectionObserver' in window) {
     var targets = document.querySelectorAll(
-      '.about__head, .about__body, .pillar, .show, .slides__head, .stage__inner, .pillars > .label, .pillars > .display'
+      '.about__head, .about__body, .pillar, .show, .slides__head, .stage__inner, ' +
+      '.pillars > .label, .pillars > .display, .farewell__inner, .onward__inner'
     );
     var io = new IntersectionObserver(function (entries) {
       entries.forEach(function (e) {
