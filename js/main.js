@@ -34,7 +34,20 @@
     { src: 'img/danielle-steger.jpg',    cap: 'Danielle Steger Finds a Job! — October 2025' },
     { src: 'img/danielle-steger-2.jpg',  cap: 'Danielle Steger Finds a Job! — October 2025' },
     { src: 'img/two-hander.jpg',         cap: 'On the Rails stage — October 2025' },
-    { src: 'img/two-hander-2.jpg',       cap: 'On the Rails stage — October 2025' }
+    { src: 'img/two-hander-2.jpg',       cap: 'On the Rails stage — October 2025' },
+    { src: 'img/after-hours.jpg',        cap: 'After Hours — improvised late night talk show, October 2025' },
+    { src: 'img/after-hours-2.jpg',      cap: 'After Hours — October 2025' },
+    { src: 'img/after-hours-3.jpg',      cap: 'After Hours — October 2025' },
+    { src: 'img/happy-family-dinner.jpg',cap: 'Happy Family Dinner — October 2025' },
+    { src: 'img/happy-family-dinner-2.jpg', cap: 'Happy Family Dinner — October 2025' },
+    { src: 'img/kevin-mcdonald.jpg', cap: 'Kevin McDonald at Rails Comedy — June 2025' },
+    { src: 'img/kevin-mcdonald-2.jpg', cap: 'Kevin McDonald at Rails Comedy — June 2025' },
+    { src: 'img/kevin-mcdonald-3.jpg', cap: 'Kevin McDonald at Rails Comedy — June 2025' },
+    { src: 'img/meet-cute-2.jpg', cap: 'Meet Cute: Live Blind Date Show — September 2025' },
+    { src: 'img/meet-cute-3.jpg', cap: 'Meet Cute: Live Blind Date Show — September 2025' },
+    { src: 'img/fanfiction-2.jpg', cap: 'Fanfiction Theater — October 2025' },
+    { src: 'img/fanfiction-3.jpg', cap: 'Fanfiction Theater — October 2025' },
+    { src: 'img/fanfiction-4.jpg', cap: 'Fanfiction Theater — October 2025' }
   ];
 
   var track = document.getElementById('track');
