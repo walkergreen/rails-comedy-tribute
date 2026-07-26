@@ -51,7 +51,31 @@
     { src: 'img/bobbys.avif', cap: 'The Bobbys — DC sketch comedy awards, March 2026' },
     { src: 'img/bobbys-2.avif', cap: 'The Bobbys — March 2026' },
     { src: 'img/bobbys-3.avif', cap: 'The Bobbys — March 2026' },
-    { src: 'img/bobbys-4.avif', cap: 'The Bobbys — March 2026' }
+    { src: 'img/bobbys-4.avif', cap: 'The Bobbys — March 2026' },
+    { src: 'img/twelve-angry-improvisers.avif', cap: '12 Angry Improvisers — 2024' },
+    { src: 'img/twelve-angry-improvisers-2.avif', cap: '12 Angry Improvisers — 2024' },
+    { src: 'img/musical-mixer.avif', cap: 'Musical Mixer — 2024' },
+    { src: 'img/musical-mixer-2.avif', cap: 'Musical Mixer — 2024' },
+    { src: 'img/out-of-my-wheelhouse.avif', cap: 'Out of My Wheelhouse — 2024' },
+    { src: 'img/out-of-my-wheelhouse-2.avif', cap: 'Out of My Wheelhouse — 2024' },
+    { src: 'img/queer-game-show.avif', cap: 'The Ultimate Queer Game Show — 2024' },
+    { src: 'img/queer-game-show-2.avif', cap: 'The Ultimate Queer Game Show — 2024' },
+    { src: 'img/sketch-battle.avif', cap: 'Sketch Battle — 2024' },
+    { src: 'img/sketch-battle-2.avif', cap: 'Sketch Battle — 2024' },
+    { src: 'img/better-binness-bros.avif', cap: 'Better Binness Bros — 2024' },
+    { src: 'img/cured-by-pain.avif', cap: 'Cured By Pain — 2024' },
+    { src: 'img/cured-by-pain-2.avif', cap: 'Cured By Pain — 2024' },
+    { src: 'img/spin-room.avif', cap: 'The Spin Room — 2024' },
+    { src: 'img/dumpster-fire.avif', cap: 'Dumpster Fire — 2024' },
+    { src: 'img/dumpster-fire-2.avif', cap: 'Dumpster Fire — 2024' },
+    { src: 'img/every-holiday-sketch-show.avif', cap: 'Every Holiday Sketch Show — 2024' },
+    { src: 'img/chaps.avif', cap: 'Chaps — 2024' },
+    { src: 'img/forevermore.avif', cap: 'Forevermore — 2024' },
+    { src: 'img/dc-raclette-club.avif', cap: 'DC Raclette Club — 2024' },
+    { src: 'img/mist.avif', cap: 'MIST — 2024' },
+    { src: 'img/mist-2.avif', cap: 'MIST — 2024' },
+    { src: 'img/danielle-she-her.avif', cap: 'Danielle She/Her — 2024' },
+    { src: 'img/stacey-axler.avif', cap: 'Stacey Axler — 2024' }
   ];
 
   var track = document.getElementById('track');
