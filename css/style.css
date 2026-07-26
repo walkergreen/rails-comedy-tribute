@@ -298,6 +298,7 @@ p{margin:0 0 1.1em}
 .onward .display{color:var(--orange); margin-bottom:1.4rem}
 .onward .lede{color:var(--muted); margin-bottom:2rem}
 .btn--big{font-size:.92rem; padding:19px 36px; letter-spacing:.1em}
+.onward__links{display:flex; flex-wrap:wrap; gap:14px}
 
 /* ============================================================
    FOOTER
