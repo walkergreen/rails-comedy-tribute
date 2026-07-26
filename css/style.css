@@ -261,6 +261,27 @@ p{margin:0 0 1.1em}
 .stage .lede{color:#fff}
 .stage__links{display:flex; flex-wrap:wrap; gap:14px; margin-top:1.8rem}
 
+
+/* ============================================================
+   ARCHIVE — the full list of productions
+   ============================================================ */
+.archive{padding:clamp(64px,11vw,150px) var(--pad); border-bottom:1px solid var(--line)}
+.archive__head{margin-bottom:clamp(32px,5vw,56px)}
+.archive__head .display{color:var(--orange)}
+.archive__list{
+  list-style:none; margin:0; padding:0;
+  columns:3 260px; column-gap:clamp(24px,3vw,48px);
+}
+.archive__list li{
+  break-inside:avoid; padding:9px 0 9px 20px; position:relative;
+  border-bottom:1px solid var(--line); color:var(--muted);
+  font-size:.92rem; line-height:1.4;
+}
+.archive__list li::before{
+  content:"\2605"; position:absolute; left:0; top:11px;
+  color:var(--orange); font-size:.6rem;
+}
+
 /* ============================================================
    FAREWELL — the closing beat, inverted to orange
    ============================================================ */

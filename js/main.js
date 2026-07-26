@@ -30,7 +30,11 @@
     { src: 'img/fanfiction-theater.avif', cap: 'Fanfiction Theater — December 2024' },
     { src: 'img/mothers-pouch.avif',      cap: "Mother's Pouch at DC Sketchfest — March 2025" },
     { src: 'img/sketchfest-preview.avif', cap: 'DC Sketchfest — March 2025' },
-    { src: 'img/etch-a-sketch-2.jpg',     cap: 'Etch A Sketch — October 2024' }
+    { src: 'img/etch-a-sketch-2.jpg',     cap: 'Etch A Sketch — October 2024' },
+    { src: 'img/danielle-steger.jpg',    cap: 'Danielle Steger Finds a Job! — October 2025' },
+    { src: 'img/danielle-steger-2.jpg',  cap: 'Danielle Steger Finds a Job! — October 2025' },
+    { src: 'img/two-hander.jpg',         cap: 'On the Rails stage — October 2025' },
+    { src: 'img/two-hander-2.jpg',       cap: 'On the Rails stage — October 2025' }
   ];
 
   var track = document.getElementById('track');
