@@ -72,6 +72,32 @@ refresh (`Cmd+Shift+R`) is often needed to see changes immediately.
 The `CNAME` file in the repo root **is** the custom domain setting. Deleting it
 unsets the domain and the site reverts to `walkergreen.github.io`.
 
+### ⚠️ Never make this repo private
+
+GitHub Pages requires a **public** repo on free plans. Switching this repo to
+private does not pause the site — it **deletes the Pages deployment outright**.
+`GET /repos/:owner/:repo/pages` starts returning a hard `404`, not a disabled
+state. Making the repo public again restores the repo but **not** Pages: the
+site stays down until Pages is explicitly recreated.
+
+This happened on 26 July 2026. The fix:
+
+```bash
+gh api -X POST repos/walkergreen/rails-comedy-tribute/pages \
+  -f "source[branch]=main" -f "source[path]=/"
+```
+
+Because `CNAME` is committed to the repo, the custom domain reattaches
+automatically and the existing HTTPS certificate is reused — no re-provisioning
+wait. Recovery took about 30 seconds. Verify with:
+
+```bash
+curl -s -o /dev/null -w "%{http_code}\n" https://www.rails-comedy.com/
+```
+
+If the repo genuinely needs to be private, the site cannot be hosted this way
+without a paid GitHub plan.
+
 ## 2. rails-comedy.com — DNS at IONOS (this is the live domain)
 
 Nameservers: `ns1039.ui-dns.de`, `ns1066.ui-dns.org`, `ns1073.ui-dns.biz`,
